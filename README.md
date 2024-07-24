@@ -69,7 +69,7 @@ Replace the areas marked with **[Insert]** with the information you want to be f
 - Checkbox inputs must be represented by **1's (checked) and 0's (unchecked)** to determine which boxes on the form you want checked/unchecked
 
 
-![image](./Diagrams/fillInfo_index.png)
+![image](./fillInfo_index.png)
 
 &nbsp;
 
@@ -86,7 +86,7 @@ Any additional error/success messages will be outputted in the terminal window.
 ***
 #### createFormInfo(confirmedHeading)
 
-![image](./Diagrams/createFormInfo_index_fillInfo.png)
+![image](./createFormInfo_index_fillInfo.png)
 
 This script is used to fill in the ``fill_info.json`` file. Here is a breakdown of what the code does:
 
@@ -128,7 +128,7 @@ if(oldInfoD == "{}"){
 ***
 #### confirmedHeading(notVerifiedHeading)
 
-![image](./Diagrams/toConfirm_index.png)
+![image](./toConfirm_index.png)
 
 Create a new llamaAI using your token.
 ```bash
